@@ -19,7 +19,8 @@
 }
 
 .main .image img {
-	width: 330px;
+    padding-top: 60px;
+	width: 390px;
 }
 
 .headerBlock .logInText{
