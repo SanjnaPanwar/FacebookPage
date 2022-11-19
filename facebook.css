@@ -1,13 +1,14 @@
-* {
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
 }
 
 .main {
+    background-color: #f0f2f5;
 	text-align: center;
-	margin-top: 30px;
+    padding-bottom: 70px;
+
 }
 
 .main .image {
@@ -18,16 +19,19 @@
 }
 
 .main .image img {
-	width: 300px;
+	width: 330px;
 }
 
 .headerBlock .logInText{
     text-align: center;
     padding: 0 10px 0 10px;
     line-height: 22px;
+    background-color: white;
+    margin: 20px;
 }
 
 .main .loginFacebook {
+    background-color: white;
 	border-radius: 10px;
 	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 	margin: auto;
@@ -46,68 +50,61 @@
 .userInfo{
     font-size: 17px;
     padding: 40px 80px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
 }
 
-.userEmail{ 
+.userEmail input{ 
+    margin: 10px 0px;
     border-radius: 6px;
     font-size: 17px;
     padding: 14px 16px;
     width: 330px;
+    height: 22px;
     background: #FFFFFF;
     border: 1px solid #dddfe2;
     color: #1d2129;
     font-family: Helvetica, Arial, sans-serif;
-    height: 22px;
     line-height: 16px;
     vertical-align: middle;
+    box-shadow: white;
 }
 
-.userPassword{
+.userPassword input{
+    margin: 10px 0px;
     border-radius: 6px;
     font-size: 17px;
     padding: 14px 16px;
     width: 330px;
+    height: 22px;
     background: #FFFFFF;
     border: 1px solid #dddfe2;
     color: #1d2129;
     font-family: Helvetica, Arial, sans-serif;
-    height: 22px;
     line-height: 16px;
     vertical-align: middle;
 }
 
-.button {
+.button button{
+    margin: 10px 0px;
     background-color: #1877f2;
     border: none;
     border-radius: 6px;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 48px;
     padding: 0 16px;
-    width: 332px;
+    width: 364px;
+    height: 48px;
+    color: white;
 }
 
-.backup{
-    padding: 20px 0 18px;
+.backup a{
     font-weight: normal;
     color: #1877f2;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     cursor: pointer;
 }
 
-.button .forgotAccount a{
-    color: #1877f2;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.button .signup a{
-    color: #1877f2;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    text-decoration: none;
-}
